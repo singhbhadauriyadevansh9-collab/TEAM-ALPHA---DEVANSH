@@ -100,9 +100,9 @@ No license file is currently included in this repository. Contact the maintainer
  
 Maintained by **Team Alpha** ([@singhbhadauriyadevansh9-collab](https://github.com/singhbhadauriyadevansh9-collab)).
 
-No license file is currently included in this repository. Contact the maintainer before reusing this code in another project.
+## Team member
 
-## 👥 Team
-
-Maintained by **Team Alpha** ([@singhbhadauriyadevansh9-collab](https://github.com/singhbhadauriyadevansh9-collab)).
+Devansh singh bhadauriya 25BCE10563
+Prakhar patel 25BCE10333
+Rachit choudhary 25BCE103348
 
