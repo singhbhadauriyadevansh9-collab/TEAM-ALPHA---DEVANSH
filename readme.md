@@ -2,7 +2,7 @@
 
 An AI-powered application that helps students and researchers quickly understand research papers. It reads a PDF, extracts key claims, methods, results, and limitations, verifies each point with citations back to the original paper, and generates summaries, flashcards, and presentation-ready notes for faster, more trustworthy learning.
 
-## ✨ Features
+##  Features
 
 - **PDF ingestion** — upload any research paper as a PDF and have it parsed automatically.
 - **Structured extraction** — pulls out claims, methodology, results, and limitations instead of a generic summary.
@@ -10,7 +10,7 @@ An AI-powered application that helps students and researchers quickly understand
 - **Auto-generated study aids** — condensed summaries, flashcards, and presentation-ready notes for quick review.
 - **Retrieval-augmented pipeline** — uses embeddings + a vector store so answers stay grounded in the actual paper content rather than the model's memory.
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -22,7 +22,7 @@ An AI-powered application that helps students and researchers quickly understand
 | File Uploads | `python-multipart` |
 | Config | `python-dotenv` |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 TEAM-ALPHA---DEVANSH/
@@ -33,7 +33,7 @@ TEAM-ALPHA---DEVANSH/
 └── .gitignore
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ npm run dev
 
 The backend will be available at `http://localhost:8000` by default, with interactive API docs at `http://localhost:8000/docs`.
 
-## 🧠 How It Works
+##  How It Works
 
 1. A PDF is uploaded and parsed page-by-page with PyMuPDF.
 2. Text chunks are embedded using `sentence-transformers` and stored in a local ChromaDB collection.
@@ -86,14 +86,19 @@ The backend will be available at `http://localhost:8000` by default, with intera
 4. Gemini's output is checked against the retrieved chunks so each claim can be traced back to its source in the paper.
 5. The final output is rendered as a summary, flashcards, and/or presentation notes in the frontend.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)
 3. Commit your changes
 4. Push to the branch and open a Pull Request
 
-## 📄 License
+##  License
+No license file is currently included in this repository. Contact the maintainer before reusing this code in another project.
+ 
+##  Team
+ 
+Maintained by **Team Alpha** ([@singhbhadauriyadevansh9-collab](https://github.com/singhbhadauriyadevansh9-collab)).
 
 No license file is currently included in this repository. Contact the maintainer before reusing this code in another project.
 
